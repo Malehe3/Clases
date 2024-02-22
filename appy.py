@@ -1,4 +1,4 @@
-import streamlit as st
+dimport streamlit as st
 from PIL import Image 
 
 st.title("Mi primera chamba!!")
@@ -11,4 +11,4 @@ st.image(image, caption='Interfaces multimodales')
 
 
 texto = st.text_input('Escribe algo', 'Este es mi texto')
-st.write('El texto escrito es', texto)
+st.write('Es verdad que:', texto)
