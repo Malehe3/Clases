@@ -11,4 +11,4 @@ st.image(image, caption='Interfaces multimodales')
 
 
 texto = st.text_input('Escribe algo', 'Este es mi texto')
-st.write('Es verdad que:', texto)
+st.write('Este es mi texto', texto)
